@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Comforter&family=Open+Sans:ital,wght@0,400;1,600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body js-body">
+    <header>
+        <h1 class="mainHeader">Poznajmy się!</h1>
+        <img class="mainImage" src="images/FB_IMG_1635967053068.jpg" alt="Kamil Mackiewicz">
+    </header>
+    <p>
+        <button class="button js-button">Włącz <span class="button__themeName js-button__themeName">ciemny</span>
+            motyw</button>
+    </p>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__listItem"><a class="navigation__link" href="#o-mnie">O mnie</a></li>
+            <li class="navigation__listItem"><a class="navigation__link" href="#zainteresowania">Zainteresowania</a>
+            </li>
+            <li class="navigation__listItem"><a class="navigation__link" href="#o-chelsea">O Chelsea</a></li>
+            <li class="navigation__listItem"><a class="navigation__link" href="#wspomnienia">Wspomnienia</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <section class="section" id="o-mnie">
+            <h2 class="section__header"><em>Kilka słów o mnie</em></h2>
+            <p>Siemka, jestem Kamil jak niektórzy już pewnie wiedzą i mam 22 lata. Obecnie
+                pracuję
+                w
+                logistyce, jestem specjalistą programu SAP. Moją największą pasją i zajawką jest zdecydowanie piłka
+                nożna.
+                Gram w klubie już od 7 roku życia i nawet udało się osiągnąć kilka fajnych międzynarodowych
+                sukcesów.
+                Mój
+                Trener powtarzał, że <i> "Zawsze trzeba próbwać nowych rzeczy i nigdy się nie poddawać, bo tylko
+                    nasze
+                    zwątpienie może nas powstrzymać"</i> - dlatego właśnie jestem tutaj z Wami.</p>
+        </section>
+        <section class="section" id="zainteresowania">
+            <h3 class="section__header">Zainteresowania</h3>
+            <p>Rozwińmy temat piłki nożnej. Miłością do futbolu zaraził mnie mój ojciec, wspólne oglądanie meczów jak i
+                rozgrywki na podwórku stworzyły nierozrywalną więź z piłką, aż do dnia dzisiejszego. Jest to dla mnie
+                wielka
+                pasja, która napędza mnie każdego dnia i wpoiła wiele wartości i woli walki o swoje.<br> Ważną rzeczą w
+                moim
+                życiu jest również rozwój i czytanie książek. Od pewnego czasu moją uwagę przykuło również
+                programowanie.
+                Choć
+                nie mam jeszcze dużej wiedzy na ten temat, ani nie tworzę cudów to czuję niesamowitą dumę i satysfakcję
+                z
+                wykonanych zadań.</p>
+        </section>
+        <section class="section" id="o-chelsea">
+            <h3 class="section__header">Keep The Blue Flag...</h3>
+            <p>...Flying High. Czyli trochę o najlepszym klubie w Europie.<br><strong>Chelsea Football Club</strong>
+                klub,
+                który
+                zmienił moje życie. Klub, który dał mi wiele wspaniałych emocji. Uwielbiam ten moment, kiedy siadam w
+                każdy
+                weekend przed telewizorem i oglądam swoją ukochaną drużynę. Najpiękniejszym momentem mojego
+                kibicowskiego
+                życia
+                było zdecydowanie zwycięstwo w Uefa Champions League w sezonie 2020/2021, pokonując w finale
+                faworyzowany
+                Manchaster City. Po kilku latach posuchy i słabszych sezonów, wreszczie wróciliśmy na sam szczyt i
+                staliśmy
+                się
+                najlepszą drużyną w Europie. Piękny moment, piękna chwila. Więcej o Chelsea przeczytasz <a
+                    href="https://pl.wikipedia.org/wiki/Chelsea_F.C."> tutaj.</a></p>
+            <div class="table__container">
+                <table class="table">
+                    <caption>Statystki zawodników Chelsea w obecnym sezonie.</caption>
+                    <tr class="table__tableRow">
+                        <th class="table__tableCell table__tableHeader" scope="col">Zawodnik</th>
+                        <th class="table__tableCell table__tableHeader" scope="col">Mecze</th>
+                        <th class="table__tableCell table__tableHeader" scope="col">Bramki</th>
+                        <th class="table__tableCell table__tableHeader" scope="col">Asysty</th>
+                        <th class="table__tableCell table__tableHeader" scope="col">Klasyfikacja kanadyjska</th>
+                    </tr>
+                    <tr class="table__tableRow">
+                        <th class="table__tableCell table__tableHeader" scope="row">Mason Mount</th>
+                        <td class="table__tableCell">8</td>
+                        <td class="table__tableCell">3</td>
+                        <td class="table__tableCell">2</td>
+                        <td class="table__tableCell">5</td>
+                    </tr>
+                    <tr class="table__tableRow">
+                        <th class="table__tableCell table__tableHeader" scope="row">Romelu Lukaku</th>
+                        <td class="table__tableCell">10</td>
+                        <td class="table__tableCell">4</td>
+                        <td class="table__tableCell">0</td>
+                        <td class="table__tableCell">4</td>
+                    </tr>
+                    <tr class="table__tableRow">
+                        <th class="table__tableCell table__tableHeader" scope="row">Timo Werner</th>
+                        <td class="table__tableCell">8</td>
+                        <td class="table__tableCell">1</td>
+                        <td class="table__tableCell">1</td>
+                        <td class="table__tableCell">2</td>
+                    </tr>
+                    <tr class="table__tableRow">
+                        <th class="table__tableCell table__tableHeader" scope="row">Kai Havertz</th>
+                        <td class="table__tableCell">14</td>
+                        <td class="table__tableCell">3</td>
+                        <td class="table__tableCell">0</td>
+                        <td class="table__tableCell">3</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section class="section" id="wspomnienia">
+            <h3 class="section__header">Powspominajmy!</h3>
+            <img class="section__image" src="images/kamil-mackiewicz-371.jpg" alt="Pierwszy turniej">
+            <p>Jedne z pierwszych zawodów na dużym boisku, był stres ale i skupienie :)</p>
+            <img class="section__image" src="images/turniej_krasnystaw.jpg" alt="Turniej w Krasnystawie">
+            <p>Międzynarodowy turniej w Krasnystawie, zajęliśmy 3 miejsce po zwycięstwie nad młodzieżową drużyną <span
+                    class="section__team"><strong>Dynama Kijów</strong></span></p>
+        </section>
+    </main>
+    <footer>
+        <p> Copyright © Kamil Mackiewicz </p>
+    </footer>
+</body>
+
+</html>

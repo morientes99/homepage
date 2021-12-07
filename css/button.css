@@ -1,0 +1,8 @@
+.button {
+    border: solid 1px;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 1px 5px 5px rgb(58, 78, 19);
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+}
